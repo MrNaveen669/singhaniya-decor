@@ -1,0 +1,1114 @@
+@media (max-width: 900px) {
+  header {
+    gap: 12px;
+  }
+
+  .head-actions {
+    margin-left: auto;
+    gap: 10px;
+  }
+
+  .head-actions .btn {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .hero-copy {
+    max-width: 560px;
+  }
+
+  .hero-copy > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .hero-copy .btn {
+    margin: 0;
+  }
+
+  .project img {
+    height: 190px;
+  }
+
+  .productpage {
+    gap: 28px;
+    padding-top: 28px;
+  }
+
+  .productpage h1 {
+    font-size: 40px;
+  }
+
+  .detailimg {
+    max-height: 480px;
+  }
+
+  footer {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 0 16px;
+  }
+
+  .logo > b {
+    font-size: 27px;
+  }
+
+  .head-actions .btn {
+    display: none;
+  }
+
+  .hamb {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  nav {
+    top: 68px;
+    padding: 16px;
+    gap: 0;
+    box-shadow: 0 12px 24px #0002;
+  }
+
+  nav a {
+    padding: 13px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .hero {
+    height: 610px;
+    background-position: 62% center;
+  }
+
+  .hero-copy {
+    left: 6%;
+    top: 48px;
+    width: 88%;
+  }
+
+  .hero h1 {
+    font-size: clamp(34px, 11vw, 44px);
+  }
+
+  .hero-copy > div {
+    align-items: stretch;
+    flex-direction: column;
+    width: min(100%, 260px);
+  }
+
+  .hero-copy .btn {
+    width: 100%;
+  }
+
+  .trust {
+    padding: 14px 6%;
+    gap: 10px 16px;
+    font-size: 11px;
+  }
+
+  .sectitle h2,
+  .projectintro h2,
+  .testimonial h2 {
+    font-size: 31px;
+  }
+
+  .catgrid,
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cat img {
+    height: 125px;
+  }
+
+  .cat div {
+    min-height: 86px;
+    padding: 11px;
+  }
+
+  .cat small {
+    font-size: 11px;
+    padding-right: 20px;
+  }
+
+  .product {
+    min-width: 0;
+  }
+
+  .product b {
+    min-height: 34px;
+    overflow-wrap: anywhere;
+  }
+
+  .product span {
+    font-size: 12px;
+  }
+
+  .stats > div,
+  .stats aside {
+    padding: 18px 14px;
+  }
+
+  .projects {
+    margin-left: -4.5%;
+    margin-right: -4.5%;
+    padding: 26px 4.5%;
+  }
+
+  .project img {
+    height: 210px;
+  }
+
+  .testimonial {
+    margin-left: -4.5%;
+    margin-right: -4.5%;
+    padding: 28px 4.5%;
+  }
+
+  .shopsearch {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .productpage h1 {
+    font-size: 35px;
+  }
+
+  .productpage dl {
+    grid-template-columns: minmax(100px, 38%) 1fr;
+  }
+
+  .productpage dt,
+  .productpage dd {
+    padding: 10px 8px;
+    overflow-wrap: anywhere;
+  }
+
+  .productpage .btn {
+    width: 100%;
+  }
+
+  .about > p {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .aboutbox {
+    padding: 24px;
+  }
+
+  footer {
+    padding: 34px 6%;
+    gap: 24px;
+  }
+
+  .login {
+    padding: 20px;
+  }
+
+  .login form {
+    width: 100%;
+    padding: 28px 22px;
+  }
+
+  .admin main {
+    padding: 24px 16px;
+  }
+
+  .admin main h1 {
+    font-size: 29px;
+  }
+
+  .adminform {
+    padding: 14px;
+  }
+
+  .admintable > div {
+    grid-template-columns: 45px minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .admintable > div button {
+    width: 100%;
+    padding: 9px 6px;
+  }
+}
+
+.icon-button,
+.drawer-close,
+.testimonial-controls button,
+.product-wish,
+.footer-group > button,
+.admin-menu,
+.filter-toggle,
+.sort-toggle,
+.filter-sheet button,
+.filter-sheet-head button,
+.category-pills button {
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.icon-button {
+  display: inline-flex;
+  padding: 0;
+}
+
+.icon-button svg {
+  width: 19px;
+  height: 19px;
+}
+
+.project-list {
+  display: contents;
+}
+
+.project span,
+.project-link,
+.stats-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #971a2c;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.stats-cta {
+  margin-top: 14px;
+  color: #fff;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image img {
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  padding: 4px 7px;
+  border-radius: 3px;
+  background: #c99b4d;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.product-wish {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  color: #8e1525;
+}
+
+.product > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.testimonial-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.testimonial-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d8c4a7;
+  border-radius: 50%;
+  color: #8e1525;
+}
+
+.testimonial-controls svg {
+  width: 18px;
+}
+
+.stars {
+  color: #c99b4d;
+  letter-spacing: 3px;
+}
+
+.mobile-sticky-cta,
+.mobile-overlay,
+.drawer-heading,
+.drawer-actions,
+.filter-toggle,
+.sort-toggle,
+.filter-sheet,
+.category-pills,
+.call-link,
+.detail-accordions,
+.admin-menu,
+.copyright,
+.socials {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  header {
+    gap: 20px;
+  }
+
+  .logo {
+    min-width: 160px;
+  }
+
+  nav {
+    gap: 16px;
+  }
+
+  .head-actions {
+    gap: 9px;
+    min-width: 0;
+  }
+
+  .search {
+    width: 180px;
+  }
+
+  .desktop-quote {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .projects,
+  .testimonial {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  html,
+  body,
+  #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .mobile-overlay {
+    position: fixed;
+    z-index: 30;
+    inset: 0;
+    background: rgba(20, 12, 12, .48);
+  }
+
+  .mobile-overlay.visible {
+    display: block;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  .mobile-drawer {
+    z-index: 40;
+  }
+
+  header {
+    gap: 12px;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .head-actions {
+    margin-left: auto;
+  }
+
+  .head-actions .search,
+  .head-actions .desktop-quote {
+    display: none;
+  }
+
+  .hamb {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  nav.mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    width: min(420px, 78vw);
+    height: 100dvh;
+    padding: 28px;
+    transform: translateX(105%);
+    transition: transform .25s ease;
+    box-shadow: -12px 0 30px rgba(0, 0, 0, .12);
+  }
+
+  nav.mobile-drawer.show {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  nav.mobile-drawer:not(.show) {
+    visibility: hidden;
+  }
+
+  nav.mobile-drawer.show {
+    visibility: visible;
+  }
+
+  .drawer-heading {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 18px;
+    border-bottom: 1px solid #eee;
+    color: #8e1525;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+  }
+
+  .drawer-close {
+    display: inline-flex;
+    padding: 4px;
+    color: #8e1525;
+  }
+
+  .drawer-actions {
+    gap: 14px;
+    margin-top: 15px;
+    padding-top: 18px;
+    border-top: 1px solid #eee;
+  }
+
+  .drawer-actions .btn {
+    width: 100%;
+  }
+
+  .drawer-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8e1525;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .hero-copy > div {
+    display: flex;
+  }
+
+  .detail-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .call-link {
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 44px;
+    color: #8e1525;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .footer-group > button {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+
+  .footer-group > button svg {
+    display: none;
+  }
+
+  .footer-group .footer-links {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    padding: 7px 16px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .top-message {
+    display: none;
+  }
+
+  header {
+    height: 68px;
+  }
+
+  .head-actions {
+    gap: 12px;
+  }
+
+  .head-actions .icon-button {
+    display: inline-flex;
+  }
+
+  .head-actions .desktop-quote,
+  .head-actions .search {
+    display: none;
+  }
+
+  .hamb {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px;
+  }
+
+  nav.mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    width: min(86vw, 360px);
+    height: 100dvh;
+    padding: 24px;
+    transform: translateX(105%);
+    transition: transform .25s ease;
+    box-shadow: -12px 0 30px rgba(0, 0, 0, .12);
+  }
+
+  nav.mobile-drawer.show {
+    transform: translateX(0);
+  }
+
+  nav.mobile-drawer .drawer-heading,
+  nav.mobile-drawer .drawer-actions {
+    display: flex;
+  }
+
+  nav.mobile-drawer a {
+    flex: none;
+  }
+
+  .hero {
+    height: 640px;
+    background-position: 62% center;
+  }
+
+  .shade {
+    background: linear-gradient(135deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .7) 78%);
+  }
+
+  .hero-copy {
+    top: 60px;
+    left: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .hero h1 {
+    max-width: 390px;
+    font-size: clamp(42px, 12vw, 58px);
+    line-height: 1;
+  }
+
+  .hero p {
+    max-width: 90%;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .hero-copy > div {
+    width: min(100%, 320px);
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-copy .btn {
+    width: 100%;
+    min-height: 52px;
+  }
+
+  .trust {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    padding: 14px 16px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .trust span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .trust i {
+    color: #c99b4d;
+    font-size: 19px;
+    font-style: normal;
+  }
+
+  main {
+    padding: 28px 16px;
+  }
+
+  .catgrid,
+  .products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .cat {
+    border-radius: 10px;
+  }
+
+  .cat img {
+    aspect-ratio: 1.25;
+    height: auto;
+  }
+
+  .cat div {
+    min-height: 86px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stats aside {
+    grid-column: 1 / -1;
+  }
+
+  .products .product {
+    min-width: 0;
+  }
+
+  .product b,
+  .product small,
+  .product span {
+    overflow-wrap: anywhere;
+  }
+
+  .projects {
+    display: block;
+    margin: 35px -16px 0;
+    padding: 28px 16px;
+  }
+
+  .project-list {
+    display: flex;
+    gap: 14px;
+    margin: 0 -16px;
+    padding: 4px 16px 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .project-list::-webkit-scrollbar,
+  .category-pills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .project {
+    flex: 0 0 82%;
+    scroll-snap-align: start;
+  }
+
+  .project img {
+    height: 220px;
+  }
+
+  .testimonial {
+    display: block;
+    margin: 0 -16px;
+    padding: 30px 16px;
+  }
+
+  .testimonial-card,
+  .testimonial aside {
+    margin-top: 18px;
+  }
+
+  .testimonial aside form {
+    display: flex;
+  }
+
+  .testimonial aside input {
+    min-width: 0;
+    font-size: 16px;
+  }
+
+  .testimonial aside button {
+    width: 48px;
+    border: 0;
+    background: #c99b4d;
+    color: #fff;
+  }
+
+  .shop-tools {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .shop-search-wrap {
+    position: relative;
+    grid-column: 1 / -1;
+  }
+
+  .shop-search-wrap > svg {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    color: #777;
+  }
+
+  .shopsearch {
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding-left: 38px;
+    font-size: 16px;
+  }
+
+  .filter-toggle,
+  .sort-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    gap: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .category-pills {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0 22px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .category-pills button {
+    flex: 0 0 auto;
+    min-height: 38px;
+    padding: 7px 13px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+
+  .category-pills button.active,
+  .filter-sheet button.active {
+    border-color: #8e1525;
+    background: #8e1525;
+    color: #fff;
+  }
+
+  .filter-sheet {
+    position: fixed;
+    z-index: 45;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 22px 20px calc(22px + env(safe-area-inset-bottom));
+    border-radius: 18px 18px 0 0;
+    background: #fff;
+    box-shadow: 0 -12px 30px rgba(0, 0, 0, .16);
+    transform: translateY(105%);
+    transition: transform .25s ease;
+  }
+
+  .filter-sheet.open {
+    transform: translateY(0);
+  }
+
+  .filter-sheet-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #8e1525;
+    font-family: 'Playfair Display';
+    font-size: 21px;
+  }
+
+  .filter-sheet-head button {
+    display: inline-flex;
+    padding: 5px;
+  }
+
+  .filter-sheet button:not(.filter-sheet-head button) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 44px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: left;
+  }
+
+  .productpage {
+    display: block;
+    padding-top: 20px;
+  }
+
+  .detailimg {
+    width: 100%;
+    max-height: none;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .product-info {
+    padding-top: 24px;
+  }
+
+  .productpage h1 {
+    font-size: 38px;
+  }
+
+  .detail-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .detail-actions .btn,
+  .call-link {
+    width: 100%;
+  }
+
+  .detail-accordions {
+    display: block;
+    margin-top: 26px;
+  }
+
+  .detail-accordions .accordion {
+    border-top: 1px solid #ddd;
+  }
+
+  .accordion:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .accordion > button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 52px;
+    border: 0;
+    background: transparent;
+    color: #6f1522;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .accordion > div {
+    padding: 0 0 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  footer {
+    display: block;
+    padding: 34px 20px calc(100px + env(safe-area-inset-bottom));
+  }
+
+  .footbrand {
+    padding-bottom: 16px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .socials span {
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    color: #fff;
+  }
+
+  .footer-group {
+    padding: 16px 0;
+    border-top: 1px solid #3c3636;
+  }
+
+  .footer-group > button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 30px;
+    color: #fff;
+  }
+
+  .footer-group > button svg {
+    display: block;
+  }
+
+  .footer-group .footer-links {
+    display: none;
+    padding-top: 12px;
+  }
+
+  .footer-group.expanded .footer-links {
+    display: flex;
+  }
+
+  .copyright {
+    display: block;
+    padding-top: 20px;
+    color: #999;
+  }
+
+  .mobile-sticky-cta {
+    position: fixed;
+    z-index: 50;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+    background: #fff;
+    box-shadow: 0 -5px 18px rgba(0, 0, 0, .14);
+  }
+
+  .mobile-sticky-cta a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    gap: 7px;
+    color: #8e1525;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .mobile-sticky-cta a + a {
+    border-left: 1px solid #ddd;
+  }
+
+  .admin-menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 8px 14px;
+    background: #8e1525;
+    color: #fff;
+  }
+
+  .admin aside {
+    position: fixed;
+    z-index: 35;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: min(82vw, 280px);
+    transform: translateX(-105%);
+    transition: transform .25s ease;
+  }
+
+  .admin aside.open {
+    transform: translateX(0);
+  }
+
+  .admin main {
+    padding: 20px 16px 40px;
+  }
+
+  .adminform {
+    max-width: none;
+  }
+
+  .adminform input,
+  .adminform textarea,
+  .login input {
+    font-size: 16px;
+  }
+
+  .admintable > div {
+    grid-template-columns: 45px minmax(0, 1fr);
+  }
+
+  .admintable > div button {
+    min-height: 42px;
+  }
+}
+
+@media (max-width: 359px) {
+  .trust {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 8px;
+  }
+
+  .head-actions {
+    gap: 6px;
+  }
+
+  .head-actions .icon-button svg {
+    width: 17px;
+  }
+
+  .hero {
+    height: 660px;
+  }
+}
