@@ -1,0 +1,1 @@
+{"name":"singhaniya-decor-mern","private":true,"scripts":{"install:all":"npm --prefix server install && npm --prefix client install","dev":"concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"","seed":"npm --prefix server run seed","build":"npm --prefix client run build","start":"npm --prefix server start"},"devDependencies":{"concurrently":"^9.0.1"}}
